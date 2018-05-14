@@ -21,3 +21,7 @@ rules:
 
   # do not require consistent linebreaks in (e.g.) import destructuring
   object-curly-newline: 0
+
+  # disable this temporarily (2018-05-13)
+  react/prop-types: 0
+  react/prefer-stateless-function: 0

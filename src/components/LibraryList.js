@@ -12,6 +12,7 @@ class LibraryList extends Component {
     this.dataSource = ds.cloneWithRows(this.props.libraries);
   }
 
+  // eslint-disable-next-line class-methods-use-this
   renderRow(library) {
     return <ListItem library={library} />;
   }
